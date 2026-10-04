@@ -62,6 +62,10 @@ listing: `client/src/pages/ListingForm.jsx`. It is already routed at
 `/listings/new` and `/listings/:id`, both behind `ProtectedRoute`, and the
 "Sell an Item" nav link and the "Edit" buttons already point to it.
 
+This is roughly what the finished page should look like when creating a listing (filled in with example values — the status select only appears when editing):
+
+![Finished page](docs/sell-an-item.png)
+
 ### TODO 1 — the form
 Render inputs bound to the `form` state:
 - `title` — text input (e.g. `Calculus textbook`)
